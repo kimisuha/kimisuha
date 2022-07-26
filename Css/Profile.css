@@ -1,0 +1,23 @@
+body {
+  background-color: #7741BD;
+}
+body .container {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+body .profile-head {
+  text-transform: capitalize;
+}
+body .profile-head i {
+  font-size: 5vh;
+  transform: rotate(90deg);
+}
+body .profile-head .profile-avata img {
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+body .profile-body h1, body .profile-body label {
+  text-transform: capitalize;
+  border-bottom: 1px solid #7741BD;
+}/*# sourceMappingURL=Profile.css.map */

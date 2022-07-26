@@ -1,0 +1,116 @@
+.row{
+    max-width: 99%;
+}
+
+
+header{
+    text-transform: capitalize;
+    text-align: center;
+    
+    padding: 0.5rem;
+
+    border: 1px solid black;
+    border-radius: 0.5rem;
+
+    background-color: #7741BD;
+    color: white;
+}
+
+.content{
+   /*  border: 1px solid black;
+    border-radius: 0.5rem; */
+    margin: 0.5rem;
+    padding: 0.3rem;
+
+    .content-left{
+        border: 1px solid transparent;
+        border-radius: 0.5rem;
+        background-color: burlywood;
+        
+        a{
+            color: white;
+            font-size: x-large;
+        }
+
+        a:hover{
+            color: #005FA9;
+        }
+
+        ul{
+            li{
+                list-style: none;
+                display: none;
+            }
+        }
+    }
+
+    .content-mid{
+        background-color: #7741BD;
+        color: #005FA9;
+        padding: 0.5rem;
+
+
+        border: 0.5px solid transparent;
+        border-radius: 0.5rem;
+
+        h2{
+            text-transform: capitalize;
+            border-bottom: 1px solid white;
+        }
+
+        .todo-item{
+            
+            text-align: center;
+            overflow: hidden;
+            /* max-height: 7rem; */
+
+            margin: 0.5rem 0;
+
+            .todo-item-control p {
+                cursor: pointer;
+            }
+
+            .todo-item-bton{
+                display: flex;
+                justify-content: space-around;
+
+                font-size: xx-large;
+                
+                border: 1px solid transparent;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
+    .content-right{
+        background-color: #005FA9;
+        border: 0.5px solid transparent;
+        border-radius: 0.5rem;
+        img{
+            border: 1px solid transparent;
+            border-radius: 50%;
+        }
+
+        button{
+            border: 1px solid transparent;
+        }
+
+        button:hover{
+            background-color: transparent;
+
+            img{
+                filter: blur(0.1rem);
+            }
+        }
+    }
+}
+
+.todo-item-inprocess{
+    background: #E9E172;
+}
+
+.todo-item-success{
+    background-color: #76DB3E;
+    color: white;
+}
